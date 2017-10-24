@@ -1,0 +1,49 @@
+/*
+Kolory:
+fiolet #734B6B
+morski ciemny #497F7F - nagłówki
+morski jasny #C6D9D7 -tło
+morski pastel #F8FBFB - tekst
+piasek #F0E0CC
+*/
+
+
+
+/*linia pod naglowkiem logowanie*/
+.lineLogIn{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #F8FBFB;
+    width: 300px;
+    height: 3px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+main > div:first-child{
+    color: #497F7F;
+}
+
+/*formularz*/
+
+    #formLogin{
+        position: relative;
+        font-size: 18px;
+    }
+
+    #formLogIn > input{
+        left: 50%;
+        margin: 1%;
+    }
+
+    .inputLogin{
+        color: #497F7F;
+        background-color: transparent;
+        border: 1px solid #F8FBFB;
+        width: 200px;
+        height: 15px;
+        padding: 1%;
+        font-size: 18px;
+        border-radius: 4px;
+    }

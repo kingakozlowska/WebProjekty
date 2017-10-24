@@ -1,0 +1,121 @@
+/*
+Kolory:
+fiolet #734B6B
+morski ciemny #497F7F
+morski jasny #C6D9D7
+morski pastel #F8FBFB
+piasek #F0E0CC
+*/
+
+html, body{
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    color: #F8FBFB;
+    font-size: 18px;
+    font-family: 'Roboto Mono', monospace;
+    /*background-color: #C6D9D7;*/
+    /*background-image: url("../image/1.jpeg");*/
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%), url("../image/1.jpeg");
+    background-size: 100%;
+}
+
+body:before {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("../image/1.2.jpg");
+    width: 100%;
+    height: 100%;
+    opacity : 0.2;
+    z-index: -1;
+
+}
+
+
+a, a:hover, a:link, a:visited, a:active{  text-decoration: none; color: #497F7F;}
+a:hover{ color: #734B6B;}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+
+/*nagłowki*/
+h1{
+    font-size: 90px;
+    color: #497F7F;
+    margin: 1%;
+}
+
+h2{
+    font-size: 35px;
+    color: #497F7F;
+    margin: 1%;
+}
+
+/*header*/
+     header{
+            background-color: #F8FBFB;
+            padding: 1%;
+
+        }
+
+    #logoHeader{
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 2px;
+    }
+    #logoHeader:hover{
+        color: #497F7F;
+    }
+
+    /*nav*/
+    nav{
+        text-align: right;
+    }
+
+    nav > a{
+        padding: 10px;
+    }
+
+/*main*/
+    main{
+        width: 100%;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); /* wysrotkowanie */
+        font-size: 35px;
+    }
+
+    #logoStart{
+        font-size: 90px;
+        color: #734B6B;
+    }
+
+    /*przycisk zaloguj*/
+    .buttonStart, .buttonStart:hover, .buttonStart:link, .buttonStart:visited, .buttonStart:active{
+        margin-top: 3%;
+        color: #F8FBFB;
+        background-color: transparent;
+        border: 1px solid #F8FBFB;
+        padding: 5px 50px 5px 50px;
+        font-size: 18px;
+        border-radius: 4px;
+
+    }
+    .buttonStart:hover{
+        background-color: #F8FBFB;
+        color: #497F7F;
+        cursor: pointer;
+    }
+
+
+/*RWD*/
