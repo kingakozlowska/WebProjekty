@@ -1,0 +1,114 @@
+#o_nas {
+    background: url('../img/darte_m_05.jpg') center center no-repeat #fff;
+    width: 100%;
+    margin: 20px 0;
+}
+
+#o_nas>div {
+    width: 980px;
+    margin: 0 auto;
+    padding: 10px 20px;
+}
+
+#o_nas>div>h3 {
+    text-align: center;
+    font-size: 2em;
+}
+
+#o_nas>div>p {
+    padding: 20px 150px;
+    text-align: center;
+}
+
+#o_nas_button {
+    text-transform: uppercase;
+    padding: 10px 0;
+    background: transparent;
+    border: 1px solid #000;
+    margin: 10px auto;
+    width: 200px;
+    text-align: center;
+}
+
+#o_nas_button {
+    cursor: pointer;
+    transition: background-color 1.5s;
+}
+
+#o_nas_button:hover {
+    background-color: #fff;
+}
+
+#blog {
+    width: 980px;
+    margin: 0 auto;
+}
+
+#blog>h3 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+
+}
+
+small {
+    color: #afaca5;
+    font-style: italic;
+    text-align: center;
+}
+
+#blog>div>div {
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #f0ede8;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+#blog img {
+    transition: transform 2s;
+}
+
+#blog img:hover {
+    transform: scale(1.1,1.1);
+}
+
+.container_blog_img {
+    overflow: hidden;
+    width: 100%;
+}
+
+#blog a {
+    text-decoration: none;
+    text-align: center;
+    color: #000;
+    margin-bottom: 30px;
+}
+
+#blog p {
+    padding: 10px;
+    text-align: justify;
+}
+
+#button_read_more {
+    border: none;
+    background: transparent;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    padding: 5px;
+    transition: background 1.5s;
+}
+
+#button_read_more:hover {
+    /*background: #fff;*/
+    cursor: pointer;
+}
+
+footer {
+    width: 980px;
+    margin: 0 auto;
+}
