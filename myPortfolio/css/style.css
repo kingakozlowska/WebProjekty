@@ -1,0 +1,157 @@
+body{
+    width: 980px;
+    left: auto;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: #ffe2d4;
+}
+
+/* ------------------------------------------------ START TOPLAYER ------------------------------------------------- */
+.startToplayer{
+
+}
+
+
+    /* tło toplayera */
+    .startToplayer > div:nth-child(1){
+        background-color: #213650;
+        /*background-color: #D9D0CD;*/
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        position: fixed;
+        z-index: 2;
+    }
+
+    /* container z zawartoscia */
+    .startToplayer > div:nth-child(2) {
+        /*background-color: aliceblue;*/
+        width: 100%;
+        /*height: 100%;*/
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        z-index: 2;
+        position: absolute;
+    }
+
+    .startToplayer > div:nth-child(2) > img{
+        z-index: 2;
+        position: relative;
+        left: 50%;
+        transform:  translateX(-50%);
+        top: 0;
+        width: 35%;
+    }
+
+    .startToplayer > div:nth-child(2) > div:nth-child(2){
+        top: 3%;
+        left: 50%;
+        transform:  translateX(-50%);
+        width: 70%;
+        height: 3px;
+        position: relative;
+        background-color: white;
+    }
+
+    .startToplayer > div:nth-child(2) > div:nth-child(3){
+        top: 10%;
+        left: 50%;
+        transform:  translateX(-50%);
+        text-align: center;
+        position: relative;
+        font-size: 30px;
+        color: white;
+        margin-top: 20px;
+        line-height: 52px;
+    }
+
+    .startToplayer > div:nth-child(2) > button{
+        top: 15%;
+        left: 50%;
+        margin-top: 1%;
+        transform:  translateX(-50%);
+        text-align: center;
+        position: relative;
+        font-size: 25px;
+        color: white;
+        background-color: transparent;
+        border: 1px solid white;
+        padding: 10px;
+        width: 20%;
+    }
+
+/* ------------------------------------------------- END TOPLAYER -------------------------------------------------- */
+
+/* ---------------------------------------------------- GŁÓWNA ---------------------------------------------------- */
+
+
+
+
+.memo{
+    /*padding-top: 30px;*/
+    min-width: 100px;
+    min-height: 100px;
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+    color: black;
+    position: absolute;
+    /*box-shadow: 5px 5px 20px silver;*/
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.5); /* cien:  prawo  dol rozmycie kolor  */
+    border-radius: 15px 0px 0px 0px;
+    /*z-index: 0;*/
+}
+
+.memo .bar{
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    top:0;
+    left:0;
+    background-color: #ff6497;
+    border: solid white;
+    border-radius: 15px 0px 0px 0px; /* zaokraglenia */
+    box-sizing: border-box; /* powoduje ze dodanie np ramki nie zwiekszy nam rozmiaru "boxa" diva*/
+}
+
+.memo .bar:hover{
+    cursor: move;
+    background-color: #ff85ae;
+}
+
+.memo textarea{
+    padding: 32px 8px;
+    box-sizing: border-box;
+    background-color: transparent;
+    border: none;
+    min-width: 100px;
+    min-height: 100px;
+}
+
+
+
+img .mylogo{
+    box-sizing: border-box;
+    position: relative;
+    /*background-color: #ff6497;*/
+    /*display: flex;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
