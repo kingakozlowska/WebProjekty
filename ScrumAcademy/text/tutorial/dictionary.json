@@ -1,0 +1,250 @@
+{
+  "letters" :
+  [
+    {
+      "letter" : "A", "definitions":
+      [
+        {
+          "haslo": "Artefakty Scruma",
+          "definicja": "Elementy, które reprezentują pracę lub wartość, pozwalające na uzyskanie przejrzystości i umożliwiające inspekcję oraz adaptację procesu.",
+          "zrodlo": "www11111",
+          "slowaKluczowe": "Artefakt;Artefakty;Artefakty Scruma;Artefkt Scruma;Artefakty Scrum'a;Artefakt Scrum'a"
+        },
+        {
+          "haslo": "Artefakty Scruma 1",
+          "definicja": "2Artefakty Scruma to ...",
+          "zrodlo": "www.wiki2.com",
+          "slowaKluczowe": "12121"
+        },
+        {
+          "haslo": "Artefakty Scruma 0",
+          "definicja": "Artefakty Scruma to ...",
+          "zrodlo": "www.wiki1.com",
+          "slowaKluczowe": "Artefakt;Artefakty;Artefakty Scruma;Artefkt Scruma;Artefakty Scrum'a;Artefakt Scrum'a"
+        },
+        {
+          "haslo": "Artefakty Scruma 1",
+          "definicja": "2Artefakty Scruma to ...",
+          "zrodlo": "www.wiki2.com",
+          "slowaKluczowe": "12121"
+        },
+        {
+          "haslo": "Artefakty Scruma 0",
+          "definicja": "Artefakty Scruma to ...",
+          "zrodlo": "www.wiki1.com",
+          "slowaKluczowe": "Artefakt;Artefakty;Artefakty Scruma;Artefkt Scruma;Artefakty Scrum'a;Artefakt Scrum'a"
+        },
+        {
+          "haslo": "Artefakty Scruma 1",
+          "definicja": "2Artefakty Scruma to ...",
+          "zrodlo": "www.wiki2.com",
+          "slowaKluczowe": "12121"
+        },
+        {
+          "haslo": "Artefakty Scruma 3",
+          "definicja": "2Artefakty Scruma to ...",
+          "zrodlo": "www.wiki2.com",
+          "slowaKluczowe": "12121"
+        },
+        {
+          "haslo": "Artefakty Scruma 1",
+          "definicja": "2Artefakty Scruma to ...",
+          "zrodlo": "www.wiki2.com",
+          "slowaKluczowe": "12121"
+        },
+        {
+          "haslo": "Artefakty Scruma 1",
+          "definicja": "2Artefakty Scruma to ...",
+          "zrodlo": "www.wiki2.com",
+          "slowaKluczowe": "12121"
+        },
+        {
+          "haslo": "Artefakty Scruma 1",
+          "definicja": "2Artefakty Scruma to ...",
+          "zrodlo": "www.wiki2.com",
+          "slowaKluczowe": "12121"
+        }
+      ]
+    },
+    {
+      "letter" : "B", "definitions":
+    [
+      {
+        "haslo": "B1 - haslo",
+        "definicja": "Artefakty Scruma to ...",
+        "zrodlo": "www.wiki3.com",
+        "slowaKluczowe": "Artefakt;Artefakty;Artefakty Scruma;Artefkt Scruma;Artefakty Scrum'a;Artefakt Scrum'a"
+      },
+      {
+        "haslo": "B2 - haslo",
+        "definicja": "2",
+        "zrodlo": "www.wiki4.com",
+        "slowaKluczowe": "12121"
+      }
+    ]
+    },
+    {
+      "letter": "C",
+      "definitions": [
+        { "haslo": "C1 - haslo",
+          "definicja": "Artefakty Scruma to ...",
+          "zrodlo": "www.wiki3.com",
+          "slowaKluczowe": "Artefakt;Artefakty;Artefakty Scruma;Artefkt Scruma;Artefakty Scrum'a;Artefakt Scrum'a"
+        },
+        { "haslo": "C2 - haslo",
+          "definicja": "Artefakty Scruma to ...",
+          "zrodlo": "www.wiki3.com",
+          "slowaKluczowe": "Artefakt;Artefakty;Artefakty Scruma;Artefkt Scruma;Artefakty Scrum'a;Artefakt Scrum'a"
+        }
+      ]
+    },
+    {
+      "letter": "D",
+      "definitions": [
+        {},
+        {}
+      ]
+    },
+    {
+      "letter": "E",
+      "definitions": [
+        {},
+        {}
+      ]
+    },
+    {
+      "letter": "F",
+      "definitions": [
+        {},
+        {}
+      ]
+    },
+    {
+      "letter": "G",
+      "definitions": [
+        {},
+        {}
+      ]
+    },
+    {
+      "letter": "H",
+      "definitions": [
+        {},
+        {}
+      ]
+    },
+    {
+      "letter": "I",
+      "definitions": [
+        {},
+        {}
+      ]
+    },
+    {
+      "letter": "J",
+      "definitions": [
+        {},
+        {}
+      ]
+    },
+    {
+      "letter": "K",
+      "definitions": [
+        {},
+        {}
+      ]
+    },
+    {
+      "letter": "L",
+      "definitions": [
+        {},
+        {}
+      ]
+    },
+    {
+      "letter": "M",
+      "definitions": [
+        {},
+        {}
+      ]
+    },
+    {
+      "letter": "N",
+      "definitions": [
+        {},
+        {}
+      ]
+    },
+    {
+      "letter": "O",
+      "definitions": [
+        {},
+        {}
+      ]
+    },
+    {
+      "letter": "P",
+      "definitions": [
+        {},
+        {}
+      ]
+    },
+    {
+      "letter": "R",
+      "definitions": [
+        {},
+        {}
+      ]
+    },
+    {
+      "letter": "S",
+      "definitions": [
+        {},
+        {}
+      ]
+    },
+    {
+      "letter": "T",
+      "definitions": [
+        {},
+        {}
+      ]
+    },
+    {
+      "letter": "U",
+      "definitions": [
+        {},
+        {}
+      ]
+    },
+    {
+      "letter": "W",
+      "definitions": [
+        {},
+        {}
+      ]
+    },
+    {
+      "letter": "X",
+      "definitions": [
+        {},
+        {}
+      ]
+    },
+    {
+      "letter": "Y",
+      "definitions": [
+        {},
+        {}
+      ]
+    },
+    {
+      "letter": "Z",
+      "definitions": [
+        {},
+        {}
+      ]
+    }
+  ]
+
+}

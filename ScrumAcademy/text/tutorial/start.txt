@@ -1,0 +1,26 @@
+"Wstep":{
+    "KomunikatNumer1" : {
+        "Naglowek" : "CZEŚĆ!",
+        "Tresc" : "Nazywam się Scrumy i będe Twoim przewodnikiem po Scrum Academy! Jest to Twoje pierwsze logowanie. Najpierw pouczymy się troche o Scrumi'e a następnie pokaże Ci kilka wskazówek jak poruszać się po apkiacji. ",
+        "Button1" : "ZACZYNAJMY"
+    },
+    "Komunikat2" : {
+        "Nagłówek" : "WSTĘP",
+        "Tresc" : "",
+        "Button1" : "WSTECZ",
+        "Button2" : "DALEJ"
+    },
+
+
+
+
+
+
+
+    "Komunikat XXX": {
+        "Nagłówek" : "KONIEC",
+        "Tresc" : "Gratulacje! Udało Ci się przejść cały samouczek! Teraz już wiesz co to Scrum i jak działa Scrum Academy. Pamiętaj, że zawsze jestem do Twojej dyspozycji, wystarczy, że klikniesz w XXXX. Do zobaczenia pozniej!",
+        "Button1" : "WSTECZ",
+        "Button2" : "ZAKOŃCZ"
+    }
+}

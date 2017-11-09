@@ -15,26 +15,35 @@ html, body{
     color: #F8FBFB;
     font-size: 18px;
     font-family: 'Roboto Mono', monospace;
-    /*background-color: #C6D9D7;*/
+    background-color: #C6D9D7;
     /*background-image: url("../image/1.jpeg");*/
-    background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%), url("../image/1.jpeg");
+    /*background-image: linear-gradient(to bottom, rgba(0,0,0,0.7) 0%,rgba(0,0,0,0.7) 100%), url("../image/1.jpeg");*/
     background-size: 100%;
 }
 
-body:before {
-    content : "";
-    display: block;
+/*body:before {*/
+    /*content :  url("../image/1.2.jpg");*/
+    /*!*display: block;*!*/
+    /*position: absolute;*/
+    /*top: 0;*/
+    /*left: 0;*/
+    /*!*background-image: url("../image/1.2.jpg");*!*/
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*opacity : 0.2;*/
+    /*z-index: -1;*/
+/*}*/
+
+
+#backgroundStart{
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url("../image/1.2.jpg");
     width: 100%;
-    height: 100%;
-    opacity : 0.2;
+    opacity: 0.80;
     z-index: -1;
-
+    filter: brightness(20%);
 }
-
 
 a, a:hover, a:link, a:visited, a:active{  text-decoration: none; color: #497F7F;}
 a:hover{ color: #734B6B;}
