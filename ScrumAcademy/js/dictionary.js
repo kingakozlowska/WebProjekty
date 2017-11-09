@@ -103,7 +103,8 @@ $("#capitalLetterDictionary > b").click(function () {
                     }
                     var lineIdName = "lineWithDefinition_"+numberLine;
                     document.getElementById(lineIdName).style = "display: block; "; // wyswietlanie diva z definicja
-                    document.getElementById(lineIdName).innerHTML = "<div class='chosenCaptionDescriptionDictionary'>"+ json.letters[a].definitions[idDefinition].haslo + "</div></br><div class='chosenDescriptionDictionary'>" + json.letters[a].definitions[idDefinition].definicja + "</div>";
+                    // wprowadzenie do diva zawartosci (def. tytul, zrodlo itp to co w jsonie)
+                    document.getElementById(lineIdName).innerHTML = "<div class='chosenCaptionDescriptionDictionary'>"+ json.letters[a].definitions[idDefinition].haslo + "</div></br><div class='chosenDescriptionDictionary'>" + json.letters[a].definitions[idDefinition].definicja + "</div><div class='sourceOfDefinitionDictionary'>Źródło: " + json.letters[a].definitions[idDefinition].zrodlo +"</div>";
                 }
             }
         });

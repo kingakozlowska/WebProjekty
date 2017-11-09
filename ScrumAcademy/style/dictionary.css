@@ -66,6 +66,7 @@ piasek #F0E0CC
         display: none;
         padding: 20px;
         margin: 1% 0 1% 0;
+        position: relative;
     }
 
     /*tytul definicji w kontenerze*/
@@ -79,4 +80,13 @@ piasek #F0E0CC
     .chosenDescriptionDictionary{
         font-size: 15px;
         margin-top: 10px;
+    }
+
+    /*zrodlo definicji*/
+    .sourceOfDefinitionDictionary{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 0 10px 10px 0;
+        font-size: 10px;
     }
