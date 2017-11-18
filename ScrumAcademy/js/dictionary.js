@@ -76,6 +76,7 @@ $("#capitalLetterDictionary > b").click(function () {
                 var couterLine = parseInt(b/3);
                 var line = "lineWithDefinition_"+couterLine;
                 var x = document.getElementById(line).getAttribute("style");
+                //jesli element istnieje posiada style, wiec w tedy go trzeba ukryc
                 if( x ) {
                     document.getElementById(line).style = "display: none;";
                 }

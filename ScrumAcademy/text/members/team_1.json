@@ -1,0 +1,195 @@
+{
+  "leader" :
+          [
+            {
+              "position" : "Scrum Master + Product Owner",
+              "titles" : "dr inż.",
+              "name" : "Krzysztof",
+              "surname" : "Małecki",
+              "email" : "kmalecki.zut.edu.pl",
+              "www" : "http://kmalecki.zut.edu.pl/",
+              "university" : "ZUT",
+              "departament" : "Wydział Informatyki",
+              "building" : "WI-2, room: 304",
+              "description" : "",
+              "events" :
+                [
+                  {
+                    "nameEvent" : "Dodać Timelnie dla Scrum Mastera",
+                    "start" : "2017-11-20",
+                    "end" : "2018-01-31",
+                    "content" : "Opis eventu na timelne Scrum Mastera do zadania 'dodac timelenie dla Scrum Mastera'"
+                  }
+                ]
+            }
+          ],
+  "teamMembers" :
+          [{
+            "active" : "on",
+            "position" : "Scrum Master + Product Owner",
+            "name" : "Krzysztof",
+            "surname" : "Małecki",
+            "events" : [
+              {
+                "nameEvent" : "Dodać Timelnie dla Scrum Mastera",
+                "start" : "2017-11-20",
+                "end" : "2018-01-31",
+                "content" : "Opis eventu na timelne Scrum Mastera do zadania 'dodac timelenie dla Scrum Mastera'"
+              }
+            ]
+          },
+            {
+              "active" : "on",
+              "position" : "Członek zespołu (Team Member)",
+              "name" : "Błażej",
+              "surname" : "Mościński",
+              "events" :
+                [
+                  {
+                    "nameEvent" : "Dodac nowy pas ruchu",
+                    "start" : "2017-11-20",
+                    "end" : "2017-12-01",
+                    "content" : "Nowy pas ruchu dla drogi dwu kierunkowej w modelu. Ruch w przeciwna storne. Wprowadzic ruch w druga strone"
+                  },
+                  {
+                    "nameEvent" : "Dodac przeszkody dla obu pasow ruchu",
+                    "start" : "2017-11-30",
+                    "end" : "2017-12-01",
+                    "content" : "Nowy przeszkody dla obu pasow ruchu."
+                  },
+                  {
+                    "nameEvent" : "Dodac timeline dla nowego uztkownika cos cos cos",
+                    "start" : "2017-11-20",
+                    "end" : "2017-11-21",
+                    "content" : "Nowa funkcja cos cos cos "
+                  }
+                ]
+            },
+            {
+              "active" : "on",
+              "position" : "Członek zespołu (Team Member)",
+              "name" : "Kinga",
+              "surname" : "Kozłowska",
+              "events" :
+              [
+                {
+                  "nameEvent" : "Jakies wydarzenie",
+                  "start" : "2017-11-20",
+                  "end" : "2017-12-01",
+                  "content" : "Nowy pas ruchu"
+                }
+              ]
+            },
+            {
+              "active" : "on",
+              "position" : "teamMemeber",
+              "name" : "Adam",
+              "surname" : "Kowalski",
+              "events" :
+              [
+                {
+                  "nameEvent" : "Jakies wydarzenie 2",
+                  "start" : "2017-11-21",
+                  "end" : "2017-11-30",
+                  "content" : "Nowy event"
+                },
+                {
+                  "nameEvent" : "Jakies wydarzenie 3",
+                  "start" : "2017-11-30",
+                  "end" : "2017-12-04",
+                  "content" : "Nowy event 2"
+                }
+              ]
+            },
+            {
+              "active" : "off",
+              "position" : "teamMemeber",
+              "name" : "",
+              "surname" : "",
+              "events" :
+              [
+                {
+                  "nameEvent" : "",
+                  "start" : "",
+                  "end" : "",
+                  "content" : ""
+                }
+              ]
+            },
+            {
+              "active" : "off",
+              "position" : "teamMemeber",
+              "name" : "",
+              "surname" : "",
+              "events" :
+              [
+                {
+                  "nameEvent" : "",
+                  "start" : "",
+                  "end" : "",
+                  "content" : ""
+                }
+              ]
+            },
+            {
+              "active" : "off",
+              "position" : "teamMemeber",
+              "name" : "",
+              "surname" : "",
+              "events" :
+              [
+                {
+                  "nameEvent" : "",
+                  "start" : "",
+                  "end" : "",
+                  "content" : ""
+                }
+              ]
+            },
+            {
+              "active" : "off",
+              "position" : "teamMemeber",
+              "name" : "",
+              "surname" : "",
+              "events" :
+              [
+                {
+                  "nameEvent" : "",
+                  "start" : "",
+                  "end" : "",
+                  "content" : ""
+                }
+              ]
+            },
+            {
+              "active" : "off",
+              "position" : "teamMemeber",
+              "name" : "",
+              "surname" : "",
+              "events" :
+              [
+                {
+                  "nameEvent" : "",
+                  "start" : "",
+                  "end" : "",
+                  "content" : ""
+                }
+              ]
+            },
+            {
+              "active" : "off",
+              "position" : "teamMemeber",
+              "name" : "",
+              "surname" : "",
+              "events" :
+              [
+                {
+                  "nameEvent" : "",
+                  "start" : "",
+                  "end" : "",
+                  "content" : ""
+                }
+              ]
+            }
+          ]
+}

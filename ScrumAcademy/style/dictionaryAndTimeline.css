@@ -1,0 +1,93 @@
+/*
+Kolory:
+fiolet #734B6B
+morski ciemny #497F7F
+morski jasny #C6D9D7
+morski pastel #F8FBFB
+piasek #F0E0CC
+*/
+
+#contentDictionary, #contentTimeline{
+    padding: 1%;
+    width: 100%;
+    height: 100%;
+}
+
+/*linia pod napisem Słownik, Timeline*/
+    #linieUnderH2{
+        position: relative;
+        background-color: #F8FBFB;
+        width: 305px;
+        height: 3px;
+        margin-bottom: 1%;
+    }
+
+/*litery alfabetu*/
+    #capitalLetterDictionary{
+        padding-top: 1%;
+    }
+
+    #capitalLetterDictionary > b {
+        cursor: pointer;
+    }
+    #capitalLetterDictionary > b:hover {
+        cursor: pointer;
+        color: #734B6B;
+    }
+
+
+/*naglowki definicji */
+    #captionsDefinitionsDictionary{
+        color: #497F7F;
+        font-size: 20px;
+        margin-top: 2%;
+        width: 95%;
+    }
+
+    /*Caption - tytuy definicji */
+    #captionsDefinitionsDictionary > b{
+        cursor: pointer;
+        margin-right: 15%;
+        margin-bottom: 10px;
+
+    }
+
+    #captionsDefinitionsDictionary> b:hover {
+        cursor: pointer;
+        color: #734B6B;
+    }
+
+/*counter z definicja - wyswietla sie pod definicja w ktora sie kliknelo*/
+
+    /*clay kontener*/
+    .contenerWithDefinitionDictionary{
+        width: 100%;
+        height: 200px;
+        background-color: #F8FBFB;
+        display: none;
+        padding: 20px;
+        margin: 1% 0 1% 0;
+        position: relative;
+    }
+
+    /*tytul definicji w kontenerze*/
+    .chosenCaptionDescriptionDictionary{
+        color: #734B6B;
+        display: inline;
+
+    }
+
+    /*definicja w kontetenrze*/
+    .chosenDescriptionDictionary{
+        font-size: 15px;
+        margin-top: 10px;
+    }
+
+    /*zrodlo definicji*/
+    .sourceOfDefinitionDictionary{
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        margin: 0 10px 10px 0;
+        font-size: 10px;
+    }

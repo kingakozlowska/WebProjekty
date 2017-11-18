@@ -7,28 +7,39 @@
     <link href="style/logIn.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Mono" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
 <header>
     <nav>
         <a id="logoHeader" href="./"> <i class="material-icons">&#xE87C;</i> SCRUM ACADEMY</a>
-        <a href="./"> Strona domowa </a>
+        <a href="./"> Strona startowa </a>
         <a href="./logIn.html"> Zaloguj </a>
+        <a href="dictionary.html"> Słownik </a>
+        <a href="timeline.html"> Timeline </a>
+
         <!--<a href="#"> Zarejestruj się </a>-->
     </nav>
 </header>
 <main>
+
     <h2>LOGOWANIE</h2>
+
     <div class="lineLogIn"></div>
-    <form name="formLogIn" id="formLogIn">
+
+    <form name="formLogIn" id="formLogIn"> <!--action="checkUser()"> !!! method="post" !!! post w http a get w linku-->
         Login:
-            <input class="inputLogin" type="text" name="login">
+            <input class="inputLogin" type="text" name="login"/>
         </br>
         Hasło:
-            <input class="inputLogin" type="password" name="password" >
+            <input class="inputLogin" type="password" name="password"/>
         </br>
-        <button class="buttonStart">ZALOGUJ</button>
+        <input type="submit" id="checkUser" class="buttonStart" value="ZALOGUJ"/>
     </form>
+
 </main>
+
+<script src="js/logIn.js"></script>
 </body>
 </html>
